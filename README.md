@@ -1,5 +1,5 @@
 # Reto_chill_5
-Elaborado por Maria Fernanda Parra Osorio-1014980661
+Elaborado por Maria Fernanda Parra Osorio_1014980661
 1. Dado la figura de la imagen, desarrolle:
 
 <div align='center'>
