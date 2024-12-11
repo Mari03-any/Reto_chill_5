@@ -264,4 +264,4 @@ El cual instalará los paquetes `Flask`, `requests` y `numpy` con las versiones 
 + Llamas, L. (2024, julio 24). Qué es y cómo usar pip en Python. Luis Llamas. https://www.luisllamas.es/python-como-usar-pip/
 + López, M. (2022, marzo 17). Librerías de Python, ¿qué son y cuáles son las mejores? IMMUNE Technology Institute. https://immune.institute/blog/librerias-python-que-son/
 
-##Fin
+## **Fin**
