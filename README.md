@@ -149,6 +149,45 @@ if __name__ == "__main__":
   + La potencia del mayor número elevado al menor número
   + La raíz cúbica del menor número
 
+## Desarrollo
+```python
+import math
+
+def calcular_promedio(n, i, x, y, z):
+  return (n + i + x + y + z)/5
+def calcular_promedio_multiplicativo(n, i, x, y, z):
+  return (n * i * x * y * z)** (1 / 5)
+def potencia_mayor_menor(n, i, x, y, z):
+    mayor = max(n, i, x, y, z)
+    menor = min(n, i, x, y, z)
+    return mayor ** menor
+def raiz_menor(n, i, x, y, z):
+    menor = min(n, i, x, y, z)
+    return menor ** (1 / 3)
+  
+if __name__ == "__main__":
+  n = float(input("Ingrese el primer numero real:"))
+  i = float(input("Ingrese el segundo numero real:"))
+  x = float(input("Ingrese el tercer numero real:"))
+  y = float(input("Ingrese el cuarto numero real:"))
+  z = float(input("Ingrese el quinto numero real:"))
+  
+if n > 0 and i > 0 and x > 0 and y > 0 and z > 0:
+    promedio = calcular_promedio(n, i, x, y, z)
+    promedio_multiplicativo = calcular_promedio_multiplicativo(n, i, x, y, z)
+    potencia = potencia_mayor_menor(n, i, x, y, z)
+    raiz_cubica = raiz_menor(n, i, x, y, z)
+    
+    print(f"Promedio: {promedio:.2f}")
+    print(f"Promedio multiplicativo: {promedio_multiplicativo:.2f}")
+    print(f"Potencia del mayor elevado al menor: {potencia:.2f}")
+    print(f"Raíz cúbica del menor: {raiz_cubica:.2f}")
+else:
+  print("Error: Ingrses solo números reales.")
+```
+### Resultado
+[![Captura-de-pantalla-2024-12-10-220515.png](https://i.postimg.cc/Kc7L2D55/Captura-de-pantalla-2024-12-10-220515.png)](https://postimg.cc/5j0j5vTH)</br></br>
+
 6. Consultar qué es y cómo funciona *pip* en python.
 *pip*(Pip installer packages) en python es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes o modulos que se integran en python.
 + Para el uso de *pip* primeto se confirma que este instalado. </br>
@@ -168,7 +207,7 @@ Por otro lado, si queremos desinstalar un modulo o paquete. </br>
 El cual instalará los paquetes `Flask`, `requests` y `numpy` con las versiones especificadas en el archivo.
 
 8. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
-### 1. Procesamiento y Análisis de Datos
+
 1. **pandas**: Manejo de estructuras de datos como DataFrames y series.
    ```bash
    pip install pandas
@@ -181,117 +220,48 @@ El cual instalará los paquetes `Flask`, `requests` y `numpy` con las versiones 
    ```bash
    pip install scipy
    ```
-
-### 2. Visualización de Datos
-1. **matplotlib**: Creación de gráficos estáticos y personalizados.
+4. **matplotlib**: Creación de gráficos estáticos y personalizados.
    ```bash
    pip install matplotlib
    ```
-2. **seaborn**: Visualización de datos estadísticos con gráficos atractivos.
+5. **seaborn**: Visualización de datos estadísticos con gráficos atractivos.
    ```bash
    pip install seaborn
    ```
-3. **plotly**: Visualizaciones interactivas y avanzadas.
-   ```bash
-   pip install plotly
-   ```
-4. **bokeh**: Gráficos interactivos y dashboards.
+6. **bokeh**: Gráficos interactivos y dashboards.
    ```bash
    pip install bokeh
    ```
-
-### 3. Inteligencia Artificial y Machine Learning
-1. **scikit-learn**: Herramientas para machine learning y minería de datos.
+7. **scikit-learn**: Herramientas para machine learning y minería de datos.
    ```bash
    pip install scikit-learn
    ```
-2. **tensorflow**: Framework para aprendizaje profundo (deep learning).
+8. **tensorflow**: Framework para aprendizaje profundo (deep learning).
    ```bash
    pip install tensorflow
    ```
-3. **torch (PyTorch)**: Framework flexible para deep learning.
+9. **torch (PyTorch)**: Framework flexible para deep learning.
    ```bash
    pip install torch torchvision
    ```
-   
-### 4. Desarrollo Web
-1. **flask**: Framework ligero para crear aplicaciones web.
+10. **flask**: Framework ligero para crear aplicaciones web.
    ```bash
    pip install flask
    ```
-2. **django**: Framework robusto y completo para desarrollo web.
-   ```bash
-   pip install django
-   ```
-
-### 5. Web Scraping y Automatización
-1. **requests**: Manejo sencillo de peticiones HTTP.
+11. **requests**: Manejo sencillo de peticiones HTTP.
    ```bash
    pip install requests
    ```
-2. **beautifulsoup4**: Análisis de HTML y XML para scraping.
-   ```bash
-   pip install beautifulsoup4
-   ```
-3. **scrapy**: Framework completo para web scraping.
-   ```bash
-   pip install scrapy
-   ```
-4. **selenium**: Automatización de navegadores web.
-   ```bash
-   pip install selenium
-   ```
-
-### 6. Manejo de Archivos y Bases de Datos
-1. **openpyxl**: Manipulación de archivos Excel.
-   ```bash
-   pip install openpyxl
-   ```
-2. **PyPDF2**: Lectura y manipulación de archivos PDF.
+12. **PyPDF2**: Lectura y manipulación de archivos PDF.
    ```bash
    pip install PyPDF2
    ```
-3. **sqlalchemy**: ORM y herramientas para trabajar con bases de datos.
-   ```bash
-   pip install sqlalchemy
-   ```
-
-### 7. Procesamiento de Texto y Lenguaje Natural
-1. **nltk**: Procesamiento de lenguaje natural.
-   ```bash
-   pip install nltk
-   ```
-2. **spacy**: NLP avanzado y eficiente.
-   ```bash
-   pip install spacy
-   ```
-
-### 8. Gráficos y Multimedia
-1. **pillow (PIL)**: Procesamiento y manipulación de imágenes.
-   ```bash
-   pip install pillow
-   ```
-2. **moviepy**: Edición y manejo de videos.
-   ```bash
-   pip install moviepy
-   ```
-
-### 9. Pruebas y Depuración
-1. **pytest**: Herramienta para pruebas unitarias.
-   ```bash
-   pip install pytest
-   ```
-2. **unittest**: Librería integrada en Python para pruebas.
-   ```bash
-   pip install unittest
-   ```
-
-### 10. Creación de Interfaces Gráficas
-1. **tkinter**: Framework incluido en Python para GUIs.
-   (No requiere instalación con pip).
-2. **pyqt5**: Framework para crear interfaces gráficas.
+13. **pyqt5**: Framework para crear interfaces gráficas.
    ```bash
    pip install pyqt5
    ```
 ### Referencias
 + Llamas, L. (2024, julio 24). Qué es y cómo usar pip en Python. Luis Llamas. https://www.luisllamas.es/python-como-usar-pip/
++ López, M. (2022, marzo 17). Librerías de Python, ¿qué son y cuáles son las mejores? IMMUNE Technology Institute. https://immune.institute/blog/librerias-python-que-son/
+
+##Fin
