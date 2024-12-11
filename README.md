@@ -208,55 +208,56 @@ El cual instalará los paquetes `Flask`, `requests` y `numpy` con las versiones 
 
 8. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
 
-1. **pandas**: Manejo de estructuras de datos como DataFrames y series.
+
++ **pandas**: Manejo de estructuras de datos como DataFrames y series.
    ```bash
    pip install pandas
    ```
-2. **numpy**: Operaciones matemáticas avanzadas y manejo de matrices.
++ **numpy**: Operaciones matemáticas avanzadas y manejo de matrices.
    ```bash
    pip install numpy
    ```
-3. **scipy**: Herramientas para cálculos científicos y técnicos.
++ **scipy**: Herramientas para cálculos científicos y técnicos.
    ```bash
    pip install scipy
    ```
-4. **matplotlib**: Creación de gráficos estáticos y personalizados.
++ **matplotlib**: Creación de gráficos estáticos y personalizados.
    ```bash
    pip install matplotlib
    ```
-5. **seaborn**: Visualización de datos estadísticos con gráficos atractivos.
++ **seaborn**: Visualización de datos estadísticos con gráficos atractivos.
    ```bash
    pip install seaborn
    ```
-6. **bokeh**: Gráficos interactivos y dashboards.
++ **bokeh**: Gráficos interactivos y dashboards.
    ```bash
    pip install bokeh
    ```
-7. **scikit-learn**: Herramientas para machine learning y minería de datos.
++ **scikit-learn**: Herramientas para machine learning y minería de datos.
    ```bash
    pip install scikit-learn
    ```
-8. **tensorflow**: Framework para aprendizaje profundo (deep learning).
++ **tensorflow**: Framework para aprendizaje profundo (deep learning).
    ```bash
    pip install tensorflow
    ```
-9. **torch (PyTorch)**: Framework flexible para deep learning.
++ **torch (PyTorch)**: Framework flexible para deep learning.
    ```bash
    pip install torch torchvision
    ```
-10. **flask**: Framework ligero para crear aplicaciones web.
++ **flask**: Framework ligero para crear aplicaciones web.
    ```bash
    pip install flask
    ```
-11. **requests**: Manejo sencillo de peticiones HTTP.
++ **requests**: Manejo sencillo de peticiones HTTP.
    ```bash
    pip install requests
    ```
-12. **PyPDF2**: Lectura y manipulación de archivos PDF.
++ **PyPDF2**: Lectura y manipulación de archivos PDF.
    ```bash
    pip install PyPDF2
    ```
-13. **pyqt5**: Framework para crear interfaces gráficas.
++ **pyqt5**: Framework para crear interfaces gráficas.
    ```bash
    pip install pyqt5
    ```
